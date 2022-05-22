@@ -29,4 +29,8 @@ int handl_unint(va_list, char *, unsigned int);
 int handl_oct(va_list, char *, unsigned int);
 int handl_hex(va_list, char *, unsigned int);
 int handl_addr(va_list, char *, unsigned int);
+
+char *fill_decimal_to_binary(char *, long int, int, int);
+char *fill_binary_to_oct(char *, char *);
+char *fill_binary_to_hex(char *bnr, char *hex, int isupp, int limit);
 #endif /* _MAIN_H_ */
