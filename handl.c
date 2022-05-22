@@ -143,6 +143,3 @@ int (*get_handl_func(const char *s, int index))(va_list, char *, unsigned int)
 
 	return (NULL);
 }
-
-
-

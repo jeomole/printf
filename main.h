@@ -23,5 +23,4 @@ int print_buf(char *, unsigned int);
 unsigned int handl_buf(char *, char, unsigned int);
 int handl_ch(va_list, char *, unsigned int);
 int handl_str(va_list, char *, unsigned int);
-
 #endif /* _MAIN_H_ */
