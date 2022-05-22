@@ -23,5 +23,10 @@ int print_buf(char *, unsigned int);
 unsigned int handl_buf(char *, char, unsigned int);
 int handl_ch(va_list, char *, unsigned int);
 int handl_str(va_list, char *, unsigned int);
-
+int handl_int(va_list, char *, unsigned int);
+int handl_bnr(va_list, char *, unsigned int);
+int handl_unint(va_list, char *, unsigned int);
+int handl_oct(va_list, char *, unsigned int);
+int handl_hex(va_list, char *, unsigned int);
+int handl_addr(va_list, char *, unsigned int);
 #endif /* _MAIN_H_ */
